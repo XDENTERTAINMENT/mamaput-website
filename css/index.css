@@ -270,7 +270,7 @@ footer {
   }
 
   .top-nav {
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 15px;
   }
 
