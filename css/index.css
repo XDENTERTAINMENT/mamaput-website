@@ -292,6 +292,10 @@ footer {
 ===================================== */
 
 @media screen and (max-width: 768px) {
+      * {
+    outline: 1px solid red;
+  }
+}
 .card{
      width: 100%;
 }
@@ -299,10 +303,10 @@ footer {
     width: 100%;
       margin-top: 100px;
   }
-  .product-row {
-    width: 100%;
-
-  }
+.product-row {
+  width: 100%;
+  padding: 20px;
+}
 
   .main-content {
     width: 95%;
@@ -335,9 +339,11 @@ footer {
     width: 100%;
   }
 
-  .hero {
-    padding: 20px;
-  }
+ .hero {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
 
   .hero-text h1 {
     font-size: 2rem;
