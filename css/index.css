@@ -297,7 +297,14 @@ footer {
 ===================================== */
 
 @media screen and (max-width: 768px) {
+ footer {
+  position:initial;
+  background: #001f54;
+  color: white;
 
+  text-align: center;
+  padding: 20px;
+}
 
   .card {
     width: 100%;
