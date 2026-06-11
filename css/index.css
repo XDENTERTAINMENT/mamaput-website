@@ -240,7 +240,7 @@ footer {
 
   .hero-text,
   .hero-image {
-    width: 90%;
+    width: 100%;
     height: 500px;
   }
 
@@ -292,14 +292,16 @@ footer {
 ===================================== */
 
 @media screen and (max-width: 768px) {
-
+.card{
+     width: 100%;
+}
   .main {
     width: 100%;
       margin-top: 100px;
   }
   .product-row {
     width: 100%;
-   
+
   }
 
   .main-content {
@@ -352,6 +354,7 @@ footer {
   .sidebar {
     padding: 15px;
     height: 390px;
+    width: 100%;
   }
 
   .sidebar ul {
@@ -372,7 +375,7 @@ footer {
 
     .hero-text,
   .hero-image {
-    width: 95%;
+    width: 100%;
     height: 320px;
   }
 
@@ -401,7 +404,9 @@ footer {
     width: 95%;
    
   }
-
+ .sidebar{
+    width: 100%;
+ }
   nav {
     display: none;
   }
@@ -416,6 +421,7 @@ footer {
 
   .card {
     padding: 15px;
+   
   }
 
   .card h3 {
