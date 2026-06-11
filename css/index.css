@@ -385,6 +385,10 @@ footer {
     flex-direction: column;
     gap: 50px;
   }
+
+  .menu-box{
+    width: 100%;
+  }
 }
 
 /* =====================================
