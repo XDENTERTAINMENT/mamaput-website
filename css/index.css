@@ -55,7 +55,7 @@ header {
 .menu-box {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 85%;
 }
 
 .hamburger {
@@ -78,8 +78,11 @@ header {
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
   width: 50%;
-  height: 420px;
+  height: 500px;
 }
 
 .hero-text h1 {
@@ -96,7 +99,7 @@ header {
 
 .hero-image {
   width: 50%;
-  height: 600px;
+  height: 500px;
 }
 
 .hero-image img {
@@ -200,7 +203,12 @@ footer {
    TABLET RESPONSIVENESS
 ===================================== */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
+
+      .menu-box{
+    width: 100%;
+  }
+
   .main {
     width: 100%;
   }
